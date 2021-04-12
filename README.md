@@ -2,6 +2,20 @@
 
 **TODO: Add description**
 
+## Repl-driven developlment with cortex
+
+Run tests:
+
+```bash
+MIX_ENV=test iex -S mix
+```
+
+Run the app:
+
+```bash
+iex -S mix
+```
+
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
@@ -18,4 +32,3 @@ end
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/elixir_gitpod](https://hexdocs.pm/elixir_gitpod).
-
