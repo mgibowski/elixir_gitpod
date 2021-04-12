@@ -1,8 +1,11 @@
 defmodule ElixirGitpodTest do
   use ExUnit.Case
-  doctest ElixirGitpod
 
-  test "greets the world" do
+  test "passes" do
     assert ElixirGitpod.hello() == :world
+  end
+
+  test "fails" do
+    assert ElixirGitpod.bye() == :bye
   end
 end
